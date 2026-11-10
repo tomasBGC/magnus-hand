@@ -1,0 +1,31 @@
+split,finger,true_level,pred_light,pred_medium,pred_firm,boundaries,accuracy_all_levels
+standard,ALL,light,824,204,3,1.2975|1.8506,0.7471671388101983
+standard,ALL,medium,278,732,145,1.2975|1.8506,0.7471671388101983
+standard,ALL,firm,3,81,554,1.2975|1.8506,0.7471671388101983
+standard,Index,light,263,120,0,1.2975|1.8506,0.6594911937377691
+standard,Index,medium,91,155,137,1.2975|1.8506,0.6594911937377691
+standard,Index,firm,0,0,256,1.2975|1.8506,0.6594911937377691
+standard,Middle,light,136,0,0,1.2975|1.8506,0.9800918836140888
+standard,Middle,medium,6,384,0,1.2975|1.8506,0.9800918836140888
+standard,Middle,firm,0,7,120,1.2975|1.8506,0.9800918836140888
+standard,Ring,light,128,0,0,1.2975|1.8506,0.5300261096605744
+standard,Ring,medium,180,75,0,1.2975|1.8506,0.5300261096605744
+standard,Ring,firm,0,0,0,1.2975|1.8506,0.5300261096605744
+standard,Thumb,light,297,84,3,1.2975|1.8506,0.7741514360313316
+standard,Thumb,medium,1,118,8,1.2975|1.8506,0.7741514360313316
+standard,Thumb,firm,3,74,178,1.2975|1.8506,0.7741514360313316
+loso,ALL,light,3142,1373,2,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.46383136094674554
+loso,ALL,medium,1805,2115,606,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.46383136094674554
+loso,ALL,firm,1408,2055,1014,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.46383136094674554
+loso,Index,light,755,663,1,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.4127619496114905
+loso,Index,medium,387,628,406,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.4127619496114905
+loso,Index,firm,395,642,370,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.4127619496114905
+loso,Middle,light,1023,143,0,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.5519610649871171
+loso,Middle,medium,640,532,0,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.5519610649871171
+loso,Middle,firm,411,371,373,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.5519610649871171
+loso,Ring,light,640,380,0,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.3496252851091561
+loso,Ring,medium,615,412,0,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.3496252851091561
+loso,Ring,firm,602,399,21,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.3496252851091561
+loso,Thumb,light,724,187,1,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.5595721136112136
+loso,Thumb,medium,163,543,200,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.5595721136112136
+loso,Thumb,firm,0,643,250,per-fold: all4=1.272|1.844; index_middle=1.299|1.850; index_ring=1.295|1.827; index_thumb=1.267|1.831; middle_ring=1.328|1.873; middle_thumb=1.335|1.877; ring_thumb=1.322|1.863,0.5595721136112136

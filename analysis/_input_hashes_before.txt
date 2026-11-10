@@ -1,0 +1,2 @@
+f6780a24a0c5447b1153dea489d9dccb54006cbd81416f5772fa4bed538dfc05 *models/deployed/active_model.pkl
+4ec8c53a1d3f2a765a0be4837b1c824de4b9639d0ccb37d5f573e592ffefa3ff *data/load_cell_dataset.csv

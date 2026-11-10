@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor / tool settings
+.vscode/
+.idea/
+.claude/
+*.code-workspace
+
+# PlatformIO build output
+.pio/
+
+# Local OS files
+.DS_Store
+Thumbs.db
+
+# Large or private material that must not be committed
+recordings/
+raw/
+*.avi
+*.mp4
+*_BACKUP*
+DO_NOT_SUBMIT*
+*.local.json
+
+# Generated geometry and build trees from the mesh generator
+build/
+*.obj
+3rdparty/
+external/

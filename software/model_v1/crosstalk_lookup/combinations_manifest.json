@@ -1,0 +1,2400 @@
+{
+  "generated_at_iso": "2026-07-15T14:27:25.543861+00:00",
+  "tool": "sample_combinations.py",
+  "method": "Latin Hypercube Sampling (scipy.stats.qmc.LatinHypercube), 4D over [0,100]% per finger, positions rounded to nearest whole percent",
+  "random_seed": 20260715,
+  "n_requested": 100,
+  "n_accepted": 100,
+  "n_rejected": 168,
+  "safety_cap_pct": 20,
+  "reference_position": {
+    "Index": 0,
+    "Middle": 0,
+    "Ring": 0,
+    "Thumb": 0
+  },
+  "rejected_log": [
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 39,
+        "Middle": 51,
+        "Ring": 51,
+        "Thumb": 40
+      },
+      "reason": "Index=39% and Thumb=40% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 90,
+        "Middle": 70,
+        "Ring": 8,
+        "Thumb": 80
+      },
+      "reason": "Index=90% and Thumb=80% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 52,
+        "Middle": 44,
+        "Ring": 11,
+        "Thumb": 25
+      },
+      "reason": "Index=52% and Thumb=25% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 93,
+        "Middle": 9,
+        "Ring": 33,
+        "Thumb": 86
+      },
+      "reason": "Index=93% and Thumb=86% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 35,
+        "Middle": 33,
+        "Ring": 96,
+        "Thumb": 86
+      },
+      "reason": "Index=35% and Thumb=86% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 64,
+        "Middle": 62,
+        "Ring": 20,
+        "Thumb": 31
+      },
+      "reason": "Index=64% and Thumb=31% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 30,
+        "Middle": 71,
+        "Ring": 89,
+        "Thumb": 68
+      },
+      "reason": "Index=30% and Thumb=68% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 38,
+        "Middle": 37,
+        "Ring": 77,
+        "Thumb": 77
+      },
+      "reason": "Index=38% and Thumb=77% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 34,
+        "Middle": 71,
+        "Ring": 23,
+        "Thumb": 30
+      },
+      "reason": "Index=34% and Thumb=30% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 100,
+        "Middle": 1,
+        "Ring": 12,
+        "Thumb": 65
+      },
+      "reason": "Index=100% and Thumb=65% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 96,
+        "Middle": 85,
+        "Ring": 84,
+        "Thumb": 94
+      },
+      "reason": "Index=96% and Thumb=94% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 74,
+        "Middle": 99,
+        "Ring": 68,
+        "Thumb": 95
+      },
+      "reason": "Index=74% and Thumb=95% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 46,
+        "Middle": 68,
+        "Ring": 52,
+        "Thumb": 46
+      },
+      "reason": "Index=46% and Thumb=46% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 30,
+        "Middle": 19,
+        "Ring": 1,
+        "Thumb": 75
+      },
+      "reason": "Index=30% and Thumb=75% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 84,
+        "Middle": 28,
+        "Ring": 19,
+        "Thumb": 91
+      },
+      "reason": "Index=84% and Thumb=91% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 85,
+        "Middle": 47,
+        "Ring": 15,
+        "Thumb": 33
+      },
+      "reason": "Index=85% and Thumb=33% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 95,
+        "Middle": 48,
+        "Ring": 56,
+        "Thumb": 62
+      },
+      "reason": "Index=95% and Thumb=62% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 69,
+        "Middle": 27,
+        "Ring": 56,
+        "Thumb": 71
+      },
+      "reason": "Index=69% and Thumb=71% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 23,
+        "Middle": 38,
+        "Ring": 3,
+        "Thumb": 30
+      },
+      "reason": "Index=23% and Thumb=30% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 74,
+        "Middle": 57,
+        "Ring": 78,
+        "Thumb": 84
+      },
+      "reason": "Index=74% and Thumb=84% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 68,
+        "Middle": 89,
+        "Ring": 15,
+        "Thumb": 76
+      },
+      "reason": "Index=68% and Thumb=76% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 98,
+        "Middle": 5,
+        "Ring": 21,
+        "Thumb": 31
+      },
+      "reason": "Index=98% and Thumb=31% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 68,
+        "Middle": 54,
+        "Ring": 97,
+        "Thumb": 49
+      },
+      "reason": "Index=68% and Thumb=49% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 31,
+        "Middle": 57,
+        "Ring": 96,
+        "Thumb": 76
+      },
+      "reason": "Index=31% and Thumb=76% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 59,
+        "Middle": 22,
+        "Ring": 8,
+        "Thumb": 75
+      },
+      "reason": "Index=59% and Thumb=75% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 26,
+        "Middle": 43,
+        "Ring": 62,
+        "Thumb": 91
+      },
+      "reason": "Index=26% and Thumb=91% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 25,
+        "Middle": 42,
+        "Ring": 93,
+        "Thumb": 61
+      },
+      "reason": "Index=25% and Thumb=61% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 43,
+        "Middle": 28,
+        "Ring": 9,
+        "Thumb": 57
+      },
+      "reason": "Index=43% and Thumb=57% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 52,
+        "Middle": 93,
+        "Ring": 55,
+        "Thumb": 57
+      },
+      "reason": "Index=52% and Thumb=57% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 91,
+        "Middle": 12,
+        "Ring": 71,
+        "Thumb": 72
+      },
+      "reason": "Index=91% and Thumb=72% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 82,
+        "Middle": 83,
+        "Ring": 57,
+        "Thumb": 98
+      },
+      "reason": "Index=82% and Thumb=98% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 31,
+        "Middle": 33,
+        "Ring": 65,
+        "Thumb": 75
+      },
+      "reason": "Index=31% and Thumb=75% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 34,
+        "Middle": 65,
+        "Ring": 16,
+        "Thumb": 61
+      },
+      "reason": "Index=34% and Thumb=61% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 85,
+        "Middle": 26,
+        "Ring": 92,
+        "Thumb": 34
+      },
+      "reason": "Index=85% and Thumb=34% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 32,
+        "Middle": 74,
+        "Ring": 99,
+        "Thumb": 87
+      },
+      "reason": "Index=32% and Thumb=87% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 35,
+        "Middle": 7,
+        "Ring": 54,
+        "Thumb": 68
+      },
+      "reason": "Index=35% and Thumb=68% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 75,
+        "Middle": 50,
+        "Ring": 6,
+        "Thumb": 53
+      },
+      "reason": "Index=75% and Thumb=53% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 60,
+        "Middle": 83,
+        "Ring": 17,
+        "Thumb": 27
+      },
+      "reason": "Index=60% and Thumb=27% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 96,
+        "Middle": 76,
+        "Ring": 94,
+        "Thumb": 80
+      },
+      "reason": "Index=96% and Thumb=80% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 78,
+        "Middle": 99,
+        "Ring": 88,
+        "Thumb": 24
+      },
+      "reason": "Index=78% and Thumb=24% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 39,
+        "Middle": 10,
+        "Ring": 37,
+        "Thumb": 95
+      },
+      "reason": "Index=39% and Thumb=95% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 49,
+        "Middle": 98,
+        "Ring": 80,
+        "Thumb": 67
+      },
+      "reason": "Index=49% and Thumb=67% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 36,
+        "Middle": 4,
+        "Ring": 74,
+        "Thumb": 84
+      },
+      "reason": "Index=36% and Thumb=84% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 27,
+        "Middle": 21,
+        "Ring": 7,
+        "Thumb": 25
+      },
+      "reason": "Index=27% and Thumb=25% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 93,
+        "Middle": 24,
+        "Ring": 44,
+        "Thumb": 68
+      },
+      "reason": "Index=93% and Thumb=68% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 93,
+        "Middle": 72,
+        "Ring": 82,
+        "Thumb": 47
+      },
+      "reason": "Index=93% and Thumb=47% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 41,
+        "Middle": 10,
+        "Ring": 42,
+        "Thumb": 38
+      },
+      "reason": "Index=41% and Thumb=38% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 25,
+        "Middle": 69,
+        "Ring": 66,
+        "Thumb": 40
+      },
+      "reason": "Index=25% and Thumb=40% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 67,
+        "Middle": 11,
+        "Ring": 21,
+        "Thumb": 88
+      },
+      "reason": "Index=67% and Thumb=88% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 47,
+        "Middle": 65,
+        "Ring": 49,
+        "Thumb": 22
+      },
+      "reason": "Index=47% and Thumb=22% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 90,
+        "Middle": 86,
+        "Ring": 25,
+        "Thumb": 63
+      },
+      "reason": "Index=90% and Thumb=63% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 94,
+        "Middle": 75,
+        "Ring": 39,
+        "Thumb": 93
+      },
+      "reason": "Index=94% and Thumb=93% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 95,
+        "Middle": 74,
+        "Ring": 44,
+        "Thumb": 92
+      },
+      "reason": "Index=95% and Thumb=92% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 81,
+        "Middle": 29,
+        "Ring": 81,
+        "Thumb": 37
+      },
+      "reason": "Index=81% and Thumb=37% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 64,
+        "Middle": 80,
+        "Ring": 54,
+        "Thumb": 34
+      },
+      "reason": "Index=64% and Thumb=34% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 33,
+        "Middle": 74,
+        "Ring": 55,
+        "Thumb": 33
+      },
+      "reason": "Index=33% and Thumb=33% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 49,
+        "Middle": 71,
+        "Ring": 99,
+        "Thumb": 66
+      },
+      "reason": "Index=49% and Thumb=66% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 24,
+        "Middle": 78,
+        "Ring": 23,
+        "Thumb": 85
+      },
+      "reason": "Index=24% and Thumb=85% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 87,
+        "Middle": 61,
+        "Ring": 17,
+        "Thumb": 52
+      },
+      "reason": "Index=87% and Thumb=52% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 79,
+        "Middle": 74,
+        "Ring": 18,
+        "Thumb": 39
+      },
+      "reason": "Index=79% and Thumb=39% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 49,
+        "Middle": 35,
+        "Ring": 66,
+        "Thumb": 60
+      },
+      "reason": "Index=49% and Thumb=60% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 55,
+        "Middle": 6,
+        "Ring": 48,
+        "Thumb": 57
+      },
+      "reason": "Index=55% and Thumb=57% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 55,
+        "Middle": 88,
+        "Ring": 89,
+        "Thumb": 66
+      },
+      "reason": "Index=55% and Thumb=66% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 76,
+        "Middle": 30,
+        "Ring": 95,
+        "Thumb": 99
+      },
+      "reason": "Index=76% and Thumb=99% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 58,
+        "Middle": 2,
+        "Ring": 82,
+        "Thumb": 68
+      },
+      "reason": "Index=58% and Thumb=68% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 75,
+        "Middle": 96,
+        "Ring": 12,
+        "Thumb": 55
+      },
+      "reason": "Index=75% and Thumb=55% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 72,
+        "Middle": 23,
+        "Ring": 21,
+        "Thumb": 99
+      },
+      "reason": "Index=72% and Thumb=99% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 69,
+        "Middle": 30,
+        "Ring": 50,
+        "Thumb": 23
+      },
+      "reason": "Index=69% and Thumb=23% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 61,
+        "Middle": 16,
+        "Ring": 65,
+        "Thumb": 81
+      },
+      "reason": "Index=61% and Thumb=81% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 80,
+        "Middle": 14,
+        "Ring": 59,
+        "Thumb": 71
+      },
+      "reason": "Index=80% and Thumb=71% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 29,
+        "Middle": 100,
+        "Ring": 11,
+        "Thumb": 47
+      },
+      "reason": "Index=29% and Thumb=47% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 41,
+        "Middle": 87,
+        "Ring": 47,
+        "Thumb": 51
+      },
+      "reason": "Index=41% and Thumb=51% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 100,
+        "Middle": 17,
+        "Ring": 73,
+        "Thumb": 85
+      },
+      "reason": "Index=100% and Thumb=85% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 80,
+        "Middle": 37,
+        "Ring": 35,
+        "Thumb": 26
+      },
+      "reason": "Index=80% and Thumb=26% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 99,
+        "Middle": 73,
+        "Ring": 20,
+        "Thumb": 36
+      },
+      "reason": "Index=99% and Thumb=36% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 59,
+        "Middle": 24,
+        "Ring": 68,
+        "Thumb": 79
+      },
+      "reason": "Index=59% and Thumb=79% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 88,
+        "Middle": 49,
+        "Ring": 76,
+        "Thumb": 73
+      },
+      "reason": "Index=88% and Thumb=73% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 92,
+        "Middle": 48,
+        "Ring": 86,
+        "Thumb": 32
+      },
+      "reason": "Index=92% and Thumb=32% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 75,
+        "Middle": 87,
+        "Ring": 96,
+        "Thumb": 37
+      },
+      "reason": "Index=75% and Thumb=37% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 59,
+        "Middle": 95,
+        "Ring": 36,
+        "Thumb": 46
+      },
+      "reason": "Index=59% and Thumb=46% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 47,
+        "Middle": 99,
+        "Ring": 62,
+        "Thumb": 54
+      },
+      "reason": "Index=47% and Thumb=54% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 67,
+        "Middle": 94,
+        "Ring": 33,
+        "Thumb": 59
+      },
+      "reason": "Index=67% and Thumb=59% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 76,
+        "Middle": 96,
+        "Ring": 22,
+        "Thumb": 60
+      },
+      "reason": "Index=76% and Thumb=60% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 87,
+        "Middle": 77,
+        "Ring": 24,
+        "Thumb": 86
+      },
+      "reason": "Index=87% and Thumb=86% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 63,
+        "Middle": 11,
+        "Ring": 84,
+        "Thumb": 84
+      },
+      "reason": "Index=63% and Thumb=84% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 40,
+        "Middle": 26,
+        "Ring": 51,
+        "Thumb": 55
+      },
+      "reason": "Index=40% and Thumb=55% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 96,
+        "Middle": 38,
+        "Ring": 73,
+        "Thumb": 22
+      },
+      "reason": "Index=96% and Thumb=22% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 32,
+        "Middle": 64,
+        "Ring": 13,
+        "Thumb": 63
+      },
+      "reason": "Index=32% and Thumb=63% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 44,
+        "Middle": 35,
+        "Ring": 47,
+        "Thumb": 55
+      },
+      "reason": "Index=44% and Thumb=55% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 82,
+        "Middle": 67,
+        "Ring": 30,
+        "Thumb": 82
+      },
+      "reason": "Index=82% and Thumb=82% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 70,
+        "Middle": 100,
+        "Ring": 23,
+        "Thumb": 67
+      },
+      "reason": "Index=70% and Thumb=67% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 53,
+        "Middle": 32,
+        "Ring": 58,
+        "Thumb": 23
+      },
+      "reason": "Index=53% and Thumb=23% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 81,
+        "Middle": 55,
+        "Ring": 64,
+        "Thumb": 56
+      },
+      "reason": "Index=81% and Thumb=56% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 71,
+        "Middle": 97,
+        "Ring": 97,
+        "Thumb": 22
+      },
+      "reason": "Index=71% and Thumb=22% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 22,
+        "Middle": 79,
+        "Ring": 72,
+        "Thumb": 27
+      },
+      "reason": "Index=22% and Thumb=27% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 58,
+        "Middle": 18,
+        "Ring": 96,
+        "Thumb": 51
+      },
+      "reason": "Index=58% and Thumb=51% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 50,
+        "Middle": 72,
+        "Ring": 90,
+        "Thumb": 93
+      },
+      "reason": "Index=50% and Thumb=93% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 25,
+        "Middle": 52,
+        "Ring": 76,
+        "Thumb": 45
+      },
+      "reason": "Index=25% and Thumb=45% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 55,
+        "Middle": 46,
+        "Ring": 75,
+        "Thumb": 49
+      },
+      "reason": "Index=55% and Thumb=49% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 39,
+        "Middle": 32,
+        "Ring": 48,
+        "Thumb": 28
+      },
+      "reason": "Index=39% and Thumb=28% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 88,
+        "Middle": 96,
+        "Ring": 33,
+        "Thumb": 88
+      },
+      "reason": "Index=88% and Thumb=88% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 74,
+        "Middle": 10,
+        "Ring": 77,
+        "Thumb": 99
+      },
+      "reason": "Index=74% and Thumb=99% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 43,
+        "Middle": 85,
+        "Ring": 38,
+        "Thumb": 74
+      },
+      "reason": "Index=43% and Thumb=74% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 99,
+        "Middle": 16,
+        "Ring": 91,
+        "Thumb": 90
+      },
+      "reason": "Index=99% and Thumb=90% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 39,
+        "Middle": 55,
+        "Ring": 43,
+        "Thumb": 51
+      },
+      "reason": "Index=39% and Thumb=51% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 70,
+        "Middle": 3,
+        "Ring": 28,
+        "Thumb": 70
+      },
+      "reason": "Index=70% and Thumb=70% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 54,
+        "Middle": 12,
+        "Ring": 0,
+        "Thumb": 80
+      },
+      "reason": "Index=54% and Thumb=80% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 77,
+        "Middle": 29,
+        "Ring": 19,
+        "Thumb": 89
+      },
+      "reason": "Index=77% and Thumb=89% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 86,
+        "Middle": 13,
+        "Ring": 53,
+        "Thumb": 44
+      },
+      "reason": "Index=86% and Thumb=44% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 97,
+        "Middle": 63,
+        "Ring": 35,
+        "Thumb": 43
+      },
+      "reason": "Index=97% and Thumb=43% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 38,
+        "Middle": 57,
+        "Ring": 71,
+        "Thumb": 99
+      },
+      "reason": "Index=38% and Thumb=99% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 89,
+        "Middle": 87,
+        "Ring": 35,
+        "Thumb": 35
+      },
+      "reason": "Index=89% and Thumb=35% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 46,
+        "Middle": 80,
+        "Ring": 55,
+        "Thumb": 95
+      },
+      "reason": "Index=46% and Thumb=95% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 70,
+        "Middle": 64,
+        "Ring": 74,
+        "Thumb": 23
+      },
+      "reason": "Index=70% and Thumb=23% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 29,
+        "Middle": 94,
+        "Ring": 45,
+        "Thumb": 64
+      },
+      "reason": "Index=29% and Thumb=64% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 89,
+        "Middle": 43,
+        "Ring": 28,
+        "Thumb": 59
+      },
+      "reason": "Index=89% and Thumb=59% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 99,
+        "Middle": 81,
+        "Ring": 12,
+        "Thumb": 57
+      },
+      "reason": "Index=99% and Thumb=57% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 85,
+        "Middle": 32,
+        "Ring": 64,
+        "Thumb": 100
+      },
+      "reason": "Index=85% and Thumb=100% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 59,
+        "Middle": 78,
+        "Ring": 79,
+        "Thumb": 73
+      },
+      "reason": "Index=59% and Thumb=73% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 37,
+        "Middle": 4,
+        "Ring": 64,
+        "Thumb": 65
+      },
+      "reason": "Index=37% and Thumb=65% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 51,
+        "Middle": 98,
+        "Ring": 39,
+        "Thumb": 29
+      },
+      "reason": "Index=51% and Thumb=29% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 21,
+        "Middle": 49,
+        "Ring": 31,
+        "Thumb": 72
+      },
+      "reason": "Index=21% and Thumb=72% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 31,
+        "Middle": 25,
+        "Ring": 84,
+        "Thumb": 82
+      },
+      "reason": "Index=31% and Thumb=82% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 22,
+        "Middle": 15,
+        "Ring": 15,
+        "Thumb": 21
+      },
+      "reason": "Index=22% and Thumb=21% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 57,
+        "Middle": 33,
+        "Ring": 18,
+        "Thumb": 79
+      },
+      "reason": "Index=57% and Thumb=79% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 62,
+        "Middle": 37,
+        "Ring": 5,
+        "Thumb": 90
+      },
+      "reason": "Index=62% and Thumb=90% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 77,
+        "Middle": 25,
+        "Ring": 40,
+        "Thumb": 73
+      },
+      "reason": "Index=77% and Thumb=73% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 68,
+        "Middle": 11,
+        "Ring": 6,
+        "Thumb": 89
+      },
+      "reason": "Index=68% and Thumb=89% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 48,
+        "Middle": 49,
+        "Ring": 2,
+        "Thumb": 81
+      },
+      "reason": "Index=48% and Thumb=81% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 27,
+        "Middle": 87,
+        "Ring": 62,
+        "Thumb": 56
+      },
+      "reason": "Index=27% and Thumb=56% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 57,
+        "Middle": 9,
+        "Ring": 67,
+        "Thumb": 98
+      },
+      "reason": "Index=57% and Thumb=98% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 62,
+        "Middle": 12,
+        "Ring": 26,
+        "Thumb": 96
+      },
+      "reason": "Index=62% and Thumb=96% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 28,
+        "Middle": 90,
+        "Ring": 53,
+        "Thumb": 93
+      },
+      "reason": "Index=28% and Thumb=93% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 61,
+        "Middle": 51,
+        "Ring": 16,
+        "Thumb": 50
+      },
+      "reason": "Index=61% and Thumb=50% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 33,
+        "Middle": 27,
+        "Ring": 43,
+        "Thumb": 90
+      },
+      "reason": "Index=33% and Thumb=90% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 80,
+        "Middle": 21,
+        "Ring": 39,
+        "Thumb": 53
+      },
+      "reason": "Index=80% and Thumb=53% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 24,
+        "Middle": 80,
+        "Ring": 4,
+        "Thumb": 82
+      },
+      "reason": "Index=24% and Thumb=82% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 64,
+        "Middle": 56,
+        "Ring": 72,
+        "Thumb": 27
+      },
+      "reason": "Index=64% and Thumb=27% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 90,
+        "Middle": 75,
+        "Ring": 45,
+        "Thumb": 59
+      },
+      "reason": "Index=90% and Thumb=59% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 62,
+        "Middle": 58,
+        "Ring": 27,
+        "Thumb": 83
+      },
+      "reason": "Index=62% and Thumb=83% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 80,
+        "Middle": 36,
+        "Ring": 34,
+        "Thumb": 50
+      },
+      "reason": "Index=80% and Thumb=50% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 89,
+        "Middle": 1,
+        "Ring": 27,
+        "Thumb": 62
+      },
+      "reason": "Index=89% and Thumb=62% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 56,
+        "Middle": 45,
+        "Ring": 10,
+        "Thumb": 34
+      },
+      "reason": "Index=56% and Thumb=34% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 68,
+        "Middle": 41,
+        "Ring": 60,
+        "Thumb": 38
+      },
+      "reason": "Index=68% and Thumb=38% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 84,
+        "Middle": 91,
+        "Ring": 40,
+        "Thumb": 33
+      },
+      "reason": "Index=84% and Thumb=33% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 78,
+        "Middle": 90,
+        "Ring": 13,
+        "Thumb": 41
+      },
+      "reason": "Index=78% and Thumb=41% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 38,
+        "Middle": 84,
+        "Ring": 40,
+        "Thumb": 77
+      },
+      "reason": "Index=38% and Thumb=77% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 27,
+        "Middle": 77,
+        "Ring": 37,
+        "Thumb": 26
+      },
+      "reason": "Index=27% and Thumb=26% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 54,
+        "Middle": 53,
+        "Ring": 47,
+        "Thumb": 35
+      },
+      "reason": "Index=54% and Thumb=35% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 97,
+        "Middle": 39,
+        "Ring": 94,
+        "Thumb": 98
+      },
+      "reason": "Index=97% and Thumb=98% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 29,
+        "Middle": 94,
+        "Ring": 41,
+        "Thumb": 89
+      },
+      "reason": "Index=29% and Thumb=89% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 44,
+        "Middle": 19,
+        "Ring": 73,
+        "Thumb": 49
+      },
+      "reason": "Index=44% and Thumb=49% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 60,
+        "Middle": 39,
+        "Ring": 18,
+        "Thumb": 89
+      },
+      "reason": "Index=60% and Thumb=89% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 98,
+        "Middle": 3,
+        "Ring": 82,
+        "Thumb": 54
+      },
+      "reason": "Index=98% and Thumb=54% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 49,
+        "Middle": 12,
+        "Ring": 72,
+        "Thumb": 64
+      },
+      "reason": "Index=49% and Thumb=64% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 57,
+        "Middle": 8,
+        "Ring": 7,
+        "Thumb": 81
+      },
+      "reason": "Index=57% and Thumb=81% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 76,
+        "Middle": 98,
+        "Ring": 48,
+        "Thumb": 24
+      },
+      "reason": "Index=76% and Thumb=24% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 73,
+        "Middle": 50,
+        "Ring": 1,
+        "Thumb": 55
+      },
+      "reason": "Index=73% and Thumb=55% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 26,
+        "Middle": 65,
+        "Ring": 46,
+        "Thumb": 72
+      },
+      "reason": "Index=26% and Thumb=72% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 87,
+        "Middle": 7,
+        "Ring": 37,
+        "Thumb": 76
+      },
+      "reason": "Index=87% and Thumb=76% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 66,
+        "Middle": 51,
+        "Ring": 75,
+        "Thumb": 64
+      },
+      "reason": "Index=66% and Thumb=64% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 66,
+        "Middle": 40,
+        "Ring": 70,
+        "Thumb": 51
+      },
+      "reason": "Index=66% and Thumb=51% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 78,
+        "Middle": 50,
+        "Ring": 86,
+        "Thumb": 31
+      },
+      "reason": "Index=78% and Thumb=31% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 94,
+        "Middle": 26,
+        "Ring": 53,
+        "Thumb": 61
+      },
+      "reason": "Index=94% and Thumb=61% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 52,
+        "Middle": 0,
+        "Ring": 76,
+        "Thumb": 48
+      },
+      "reason": "Index=52% and Thumb=48% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 69,
+        "Middle": 71,
+        "Ring": 9,
+        "Thumb": 84
+      },
+      "reason": "Index=69% and Thumb=84% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 56,
+        "Middle": 46,
+        "Ring": 27,
+        "Thumb": 42
+      },
+      "reason": "Index=56% and Thumb=42% are both above the 20% collision-risk cap for this pair simultaneously"
+    },
+    {
+      "batch": 1,
+      "combination": {
+        "Index": 62,
+        "Middle": 17,
+        "Ring": 63,
+        "Thumb": 35
+      },
+      "reason": "Index=62% and Thumb=35% are both above the 20% collision-risk cap for this pair simultaneously"
+    }
+  ],
+  "combinations": [
+    {
+      "combo_index": 0,
+      "Index": 9,
+      "Middle": 1,
+      "Ring": 100,
+      "Thumb": 63
+    },
+    {
+      "combo_index": 1,
+      "Index": 19,
+      "Middle": 7,
+      "Ring": 38,
+      "Thumb": 87
+    },
+    {
+      "combo_index": 2,
+      "Index": 9,
+      "Middle": 53,
+      "Ring": 45,
+      "Thumb": 39
+    },
+    {
+      "combo_index": 3,
+      "Index": 79,
+      "Middle": 55,
+      "Ring": 58,
+      "Thumb": 14
+    },
+    {
+      "combo_index": 4,
+      "Index": 6,
+      "Middle": 42,
+      "Ring": 43,
+      "Thumb": 30
+    },
+    {
+      "combo_index": 5,
+      "Index": 4,
+      "Middle": 9,
+      "Ring": 22,
+      "Thumb": 64
+    },
+    {
+      "combo_index": 6,
+      "Index": 12,
+      "Middle": 90,
+      "Ring": 80,
+      "Thumb": 87
+    },
+    {
+      "combo_index": 7,
+      "Index": 18,
+      "Middle": 20,
+      "Ring": 78,
+      "Thumb": 32
+    },
+    {
+      "combo_index": 8,
+      "Index": 92,
+      "Middle": 5,
+      "Ring": 63,
+      "Thumb": 18
+    },
+    {
+      "combo_index": 9,
+      "Index": 37,
+      "Middle": 56,
+      "Ring": 93,
+      "Thumb": 20
+    },
+    {
+      "combo_index": 10,
+      "Index": 53,
+      "Middle": 92,
+      "Ring": 81,
+      "Thumb": 9
+    },
+    {
+      "combo_index": 11,
+      "Index": 17,
+      "Middle": 88,
+      "Ring": 33,
+      "Thumb": 44
+    },
+    {
+      "combo_index": 12,
+      "Index": 20,
+      "Middle": 0,
+      "Ring": 88,
+      "Thumb": 48
+    },
+    {
+      "combo_index": 13,
+      "Index": 0,
+      "Middle": 78,
+      "Ring": 29,
+      "Thumb": 6
+    },
+    {
+      "combo_index": 14,
+      "Index": 69,
+      "Middle": 39,
+      "Ring": 3,
+      "Thumb": 3
+    },
+    {
+      "combo_index": 15,
+      "Index": 20,
+      "Middle": 82,
+      "Ring": 54,
+      "Thumb": 58
+    },
+    {
+      "combo_index": 16,
+      "Index": 1,
+      "Middle": 82,
+      "Ring": 87,
+      "Thumb": 69
+    },
+    {
+      "combo_index": 17,
+      "Index": 7,
+      "Middle": 41,
+      "Ring": 46,
+      "Thumb": 85
+    },
+    {
+      "combo_index": 18,
+      "Index": 18,
+      "Middle": 28,
+      "Ring": 88,
+      "Thumb": 66
+    },
+    {
+      "combo_index": 19,
+      "Index": 0,
+      "Middle": 81,
+      "Ring": 44,
+      "Thumb": 72
+    },
+    {
+      "combo_index": 20,
+      "Index": 81,
+      "Middle": 66,
+      "Ring": 21,
+      "Thumb": 8
+    },
+    {
+      "combo_index": 21,
+      "Index": 3,
+      "Middle": 97,
+      "Ring": 45,
+      "Thumb": 71
+    },
+    {
+      "combo_index": 22,
+      "Index": 20,
+      "Middle": 80,
+      "Ring": 91,
+      "Thumb": 40
+    },
+    {
+      "combo_index": 23,
+      "Index": 10,
+      "Middle": 89,
+      "Ring": 35,
+      "Thumb": 25
+    },
+    {
+      "combo_index": 24,
+      "Index": 8,
+      "Middle": 47,
+      "Ring": 59,
+      "Thumb": 14
+    },
+    {
+      "combo_index": 25,
+      "Index": 28,
+      "Middle": 2,
+      "Ring": 41,
+      "Thumb": 13
+    },
+    {
+      "combo_index": 26,
+      "Index": 7,
+      "Middle": 36,
+      "Ring": 40,
+      "Thumb": 93
+    },
+    {
+      "combo_index": 27,
+      "Index": 84,
+      "Middle": 4,
+      "Ring": 0,
+      "Thumb": 8
+    },
+    {
+      "combo_index": 28,
+      "Index": 71,
+      "Middle": 4,
+      "Ring": 4,
+      "Thumb": 7
+    },
+    {
+      "combo_index": 29,
+      "Index": 5,
+      "Middle": 11,
+      "Ring": 69,
+      "Thumb": 17
+    },
+    {
+      "combo_index": 30,
+      "Index": 60,
+      "Middle": 42,
+      "Ring": 52,
+      "Thumb": 13
+    },
+    {
+      "combo_index": 31,
+      "Index": 4,
+      "Middle": 60,
+      "Ring": 78,
+      "Thumb": 97
+    },
+    {
+      "combo_index": 32,
+      "Index": 7,
+      "Middle": 31,
+      "Ring": 13,
+      "Thumb": 78
+    },
+    {
+      "combo_index": 33,
+      "Index": 47,
+      "Middle": 47,
+      "Ring": 50,
+      "Thumb": 18
+    },
+    {
+      "combo_index": 34,
+      "Index": 15,
+      "Middle": 44,
+      "Ring": 39,
+      "Thumb": 7
+    },
+    {
+      "combo_index": 35,
+      "Index": 11,
+      "Middle": 97,
+      "Ring": 69,
+      "Thumb": 92
+    },
+    {
+      "combo_index": 36,
+      "Index": 11,
+      "Middle": 14,
+      "Ring": 57,
+      "Thumb": 7
+    },
+    {
+      "combo_index": 37,
+      "Index": 1,
+      "Middle": 67,
+      "Ring": 79,
+      "Thumb": 42
+    },
+    {
+      "combo_index": 38,
+      "Index": 14,
+      "Middle": 63,
+      "Ring": 42,
+      "Thumb": 26
+    },
+    {
+      "combo_index": 39,
+      "Index": 65,
+      "Middle": 76,
+      "Ring": 98,
+      "Thumb": 4
+    },
+    {
+      "combo_index": 40,
+      "Index": 17,
+      "Middle": 34,
+      "Ring": 83,
+      "Thumb": 32
+    },
+    {
+      "combo_index": 41,
+      "Index": 34,
+      "Middle": 44,
+      "Ring": 85,
+      "Thumb": 9
+    },
+    {
+      "combo_index": 42,
+      "Index": 1,
+      "Middle": 66,
+      "Ring": 26,
+      "Thumb": 29
+    },
+    {
+      "combo_index": 43,
+      "Index": 46,
+      "Middle": 37,
+      "Ring": 59,
+      "Thumb": 15
+    },
+    {
+      "combo_index": 44,
+      "Index": 86,
+      "Middle": 53,
+      "Ring": 16,
+      "Thumb": 18
+    },
+    {
+      "combo_index": 45,
+      "Index": 71,
+      "Middle": 29,
+      "Ring": 4,
+      "Thumb": 19
+    },
+    {
+      "combo_index": 46,
+      "Index": 58,
+      "Middle": 67,
+      "Ring": 14,
+      "Thumb": 9
+    },
+    {
+      "combo_index": 47,
+      "Index": 13,
+      "Middle": 8,
+      "Ring": 67,
+      "Thumb": 15
+    },
+    {
+      "combo_index": 48,
+      "Index": 19,
+      "Middle": 22,
+      "Ring": 95,
+      "Thumb": 10
+    },
+    {
+      "combo_index": 49,
+      "Index": 2,
+      "Middle": 43,
+      "Ring": 67,
+      "Thumb": 46
+    },
+    {
+      "combo_index": 50,
+      "Index": 82,
+      "Middle": 58,
+      "Ring": 66,
+      "Thumb": 5
+    },
+    {
+      "combo_index": 51,
+      "Index": 90,
+      "Middle": 22,
+      "Ring": 72,
+      "Thumb": 15
+    },
+    {
+      "combo_index": 52,
+      "Index": 91,
+      "Middle": 84,
+      "Ring": 2,
+      "Thumb": 18
+    },
+    {
+      "combo_index": 53,
+      "Index": 19,
+      "Middle": 82,
+      "Ring": 30,
+      "Thumb": 79
+    },
+    {
+      "combo_index": 54,
+      "Index": 92,
+      "Middle": 85,
+      "Ring": 8,
+      "Thumb": 10
+    },
+    {
+      "combo_index": 55,
+      "Index": 5,
+      "Middle": 7,
+      "Ring": 95,
+      "Thumb": 95
+    },
+    {
+      "combo_index": 56,
+      "Index": 2,
+      "Middle": 79,
+      "Ring": 10,
+      "Thumb": 15
+    },
+    {
+      "combo_index": 57,
+      "Index": 3,
+      "Middle": 2,
+      "Ring": 34,
+      "Thumb": 36
+    },
+    {
+      "combo_index": 58,
+      "Index": 16,
+      "Middle": 46,
+      "Ring": 89,
+      "Thumb": 13
+    },
+    {
+      "combo_index": 59,
+      "Index": 40,
+      "Middle": 69,
+      "Ring": 86,
+      "Thumb": 4
+    },
+    {
+      "combo_index": 60,
+      "Index": 14,
+      "Middle": 34,
+      "Ring": 60,
+      "Thumb": 28
+    },
+    {
+      "combo_index": 61,
+      "Index": 45,
+      "Middle": 31,
+      "Ring": 98,
+      "Thumb": 16
+    },
+    {
+      "combo_index": 62,
+      "Index": 74,
+      "Middle": 38,
+      "Ring": 41,
+      "Thumb": 13
+    },
+    {
+      "combo_index": 63,
+      "Index": 20,
+      "Middle": 23,
+      "Ring": 28,
+      "Thumb": 70
+    },
+    {
+      "combo_index": 64,
+      "Index": 15,
+      "Middle": 65,
+      "Ring": 92,
+      "Thumb": 78
+    },
+    {
+      "combo_index": 65,
+      "Index": 12,
+      "Middle": 16,
+      "Ring": 79,
+      "Thumb": 40
+    },
+    {
+      "combo_index": 66,
+      "Index": 5,
+      "Middle": 54,
+      "Ring": 14,
+      "Thumb": 30
+    },
+    {
+      "combo_index": 67,
+      "Index": 3,
+      "Middle": 18,
+      "Ring": 85,
+      "Thumb": 45
+    },
+    {
+      "combo_index": 68,
+      "Index": 95,
+      "Middle": 27,
+      "Ring": 3,
+      "Thumb": 2
+    },
+    {
+      "combo_index": 69,
+      "Index": 6,
+      "Middle": 68,
+      "Ring": 91,
+      "Thumb": 67
+    },
+    {
+      "combo_index": 70,
+      "Index": 23,
+      "Middle": 45,
+      "Ring": 2,
+      "Thumb": 2
+    },
+    {
+      "combo_index": 71,
+      "Index": 11,
+      "Middle": 14,
+      "Ring": 1,
+      "Thumb": 11
+    },
+    {
+      "combo_index": 72,
+      "Index": 7,
+      "Middle": 15,
+      "Ring": 84,
+      "Thumb": 45
+    },
+    {
+      "combo_index": 73,
+      "Index": 4,
+      "Middle": 57,
+      "Ring": 6,
+      "Thumb": 61
+    },
+    {
+      "combo_index": 74,
+      "Index": 97,
+      "Middle": 92,
+      "Ring": 61,
+      "Thumb": 4
+    },
+    {
+      "combo_index": 75,
+      "Index": 26,
+      "Middle": 2,
+      "Ring": 16,
+      "Thumb": 1
+    },
+    {
+      "combo_index": 76,
+      "Index": 17,
+      "Middle": 13,
+      "Ring": 9,
+      "Thumb": 43
+    },
+    {
+      "combo_index": 77,
+      "Index": 6,
+      "Middle": 91,
+      "Ring": 62,
+      "Thumb": 97
+    },
+    {
+      "combo_index": 78,
+      "Index": 42,
+      "Middle": 96,
+      "Ring": 98,
+      "Thumb": 20
+    },
+    {
+      "combo_index": 79,
+      "Index": 16,
+      "Middle": 68,
+      "Ring": 37,
+      "Thumb": 37
+    },
+    {
+      "combo_index": 80,
+      "Index": 96,
+      "Middle": 36,
+      "Ring": 31,
+      "Thumb": 16
+    },
+    {
+      "combo_index": 81,
+      "Index": 4,
+      "Middle": 5,
+      "Ring": 99,
+      "Thumb": 38
+    },
+    {
+      "combo_index": 82,
+      "Index": 22,
+      "Middle": 48,
+      "Ring": 74,
+      "Thumb": 19
+    },
+    {
+      "combo_index": 83,
+      "Index": 37,
+      "Middle": 8,
+      "Ring": 32,
+      "Thumb": 7
+    },
+    {
+      "combo_index": 84,
+      "Index": 10,
+      "Middle": 65,
+      "Ring": 77,
+      "Thumb": 27
+    },
+    {
+      "combo_index": 85,
+      "Index": 50,
+      "Middle": 54,
+      "Ring": 81,
+      "Thumb": 8
+    },
+    {
+      "combo_index": 86,
+      "Index": 84,
+      "Middle": 39,
+      "Ring": 49,
+      "Thumb": 10
+    },
+    {
+      "combo_index": 87,
+      "Index": 51,
+      "Middle": 52,
+      "Ring": 58,
+      "Thumb": 17
+    },
+    {
+      "combo_index": 88,
+      "Index": 30,
+      "Middle": 63,
+      "Ring": 75,
+      "Thumb": 17
+    },
+    {
+      "combo_index": 89,
+      "Index": 94,
+      "Middle": 93,
+      "Ring": 22,
+      "Thumb": 16
+    },
+    {
+      "combo_index": 90,
+      "Index": 15,
+      "Middle": 23,
+      "Ring": 87,
+      "Thumb": 10
+    },
+    {
+      "combo_index": 91,
+      "Index": 21,
+      "Middle": 70,
+      "Ring": 61,
+      "Thumb": 20
+    },
+    {
+      "combo_index": 92,
+      "Index": 2,
+      "Middle": 31,
+      "Ring": 77,
+      "Thumb": 91
+    },
+    {
+      "combo_index": 93,
+      "Index": 27,
+      "Middle": 29,
+      "Ring": 52,
+      "Thumb": 2
+    },
+    {
+      "combo_index": 94,
+      "Index": 86,
+      "Middle": 59,
+      "Ring": 68,
+      "Thumb": 13
+    },
+    {
+      "combo_index": 95,
+      "Index": 49,
+      "Middle": 95,
+      "Ring": 65,
+      "Thumb": 12
+    },
+    {
+      "combo_index": 96,
+      "Index": 10,
+      "Middle": 17,
+      "Ring": 8,
+      "Thumb": 74
+    },
+    {
+      "combo_index": 97,
+      "Index": 83,
+      "Middle": 30,
+      "Ring": 90,
+      "Thumb": 0
+    },
+    {
+      "combo_index": 98,
+      "Index": 1,
+      "Middle": 57,
+      "Ring": 100,
+      "Thumb": 29
+    },
+    {
+      "combo_index": 99,
+      "Index": 72,
+      "Middle": 84,
+      "Ring": 74,
+      "Thumb": 2
+    }
+  ]
+}
