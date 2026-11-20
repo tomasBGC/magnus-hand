@@ -1,10 +1,10 @@
 # eFlesh 4×5 Multiplexed Sensor Array
 
-Reads **4 groups of 5 MLX90393 magnetometers** (20 total) through a **TCA9546A I2C multiplexer** on a **Teensy 4.0**, streaming calibrated magnetic field data to a Python GUI for real-time visualization and sensor identification.
+Reads **4 groups of 5 MLX90393 magnetometers** (20 total) through a **4-channel I2C multiplexer** (STEMMA QT, addressed in firmware as a TCA9546A at 0x70) on a **Teensy 4.0**, streaming calibrated magnetic field data to a Python GUI for real-time visualization and sensor identification.
 
 ```
 ┌──────────────────┐     ┌───────────────┐     ┌──────────────────────────────┐
-│  4 eFlesh boards │     │  TCA9546A     │     │  Teensy 4.0                  │
+│  4 eFlesh boards │     │  STEMMA QT    │     │  Teensy 4.0                  │
 │  (5 MLX90393 ea) │────▶│  4-ch I2C Mux │────▶│  src/main.cpp                │
 │  = 20 sensors    │     │  addr: 0x70   │     │  + lib/handshake (auto-conn) │
 └──────────────────┘     └───────────────┘     └──────────┬───────────────────┘
@@ -34,7 +34,7 @@ MagneticSensors/
     │   └── main.cpp             # Firmware: handshake + orchestration
     └── lib/
         ├── handshake/           # Auto-connect handshake protocol (MCU)
-        ├── tca/                 # TCA9546A I2C multiplexer driver
+        ├── tca/                 # I2C multiplexer driver (TCA9546A at 0x70)
         ├── eflesh/              # Sensor array (discovery, read pipeline, framing)
         └── MLX90393/            # MLX90393 driver library
 ```
@@ -43,7 +43,9 @@ MagneticSensors/
 
 ### Wiring
 
-| TCA9546A Pin | Connect To            |
+Pins of the 4-channel I2C multiplexer (STEMMA QT, addressed in firmware as a TCA9546A at 0x70):
+
+| Multiplexer pin | Connect To            |
 |-------------|----------------------|
 | VCC         | Teensy 3.3V          |
 | GND         | Teensy GND           |
@@ -170,7 +172,7 @@ panel in the GUI will spike. The group color tells you which mux channel it's on
 ## How It Works
 
 1. **Firmware** (`MCU/src/main.cpp` + `MCU/lib/`):
-   - `MCU/lib/tca/` — drives the TCA9546A 4-channel I2C multiplexer
+   - `MCU/lib/tca/` — drives the 4-channel I2C multiplexer (STEMMA QT, addressed in firmware as a TCA9546A at 0x70)
    - `MCU/lib/eflesh/` — data model, I2C sensor discovery, single-shot read pipeline,
      and binary frame serialization
    - `MCU/lib/handshake/` — broadcasts `EFLESH_HSK` over USB serial until the host

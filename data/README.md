@@ -1,6 +1,8 @@
 # Data
 
-All files are plain CSV. "Tick" means one sensor reading. Each fingertip has
+The datasets are plain CSV files; the folder `closed_loop/` holds two live recordings as JSON and CSV (see
+its own README). The data are licensed CC BY 4.0 (`LICENSE-HARDWARE-DOCS-DATA.md` in the repository root).
+"Tick" means one sensor reading. Each fingertip has
 five magnetometers (S1 to S5), each with X, Y, Z axes. Columns starting with
 `d` (for example `dS1X`) are the reading minus a resting baseline, and
 `S1_mag` to `S5_mag` are the field strengths.
@@ -18,6 +20,12 @@ five magnetometers (S1 to S5), each with X, Y, Z axes. Columns starting with
 | `crosstalk_dataset.csv` | 900 | 0.1 MB | How moving one finger changes the readings of the others (one row per source finger, position, affected finger and channel). | `software/model_v1/crosstalk/build_crosstalk_dataset.py`. |
 | `combined_dataset.csv` | 450 | 0.07 MB | The same measured with two fingers moving together, used to test whether crosstalk effects simply add up. | `software/model_v1/crosstalk/build_combined_dataset.py`. |
 | `crosstalk_lookup_dataset.csv` | 6,000 | 0.6 MB | Crosstalk measured over many random combinations of finger positions, for the nearest-neighbour lookup model. | `software/model_v1/crosstalk_lookup/build_lookup_dataset.py`. |
+
+Also included: `closed_loop/`, three files from two live grip recordings of the Force-Target Grip controller
+on the real hand (21 July and 8 September 2026): `slip_detection_live_verification.json`,
+`eflesh_test_20260908T121329Z grasp test_meta.json` and `eflesh_test_20260908T121329Z grasp test.csv`. They
+are not used by the paper analysis scripts; the counts derived from them are in the last section of
+`analysis/RESULTS_LEDGER.md`. See `closed_loop/README.md` for contents, provenance and checksums.
 
 ## Which script reads which file
 

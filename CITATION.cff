@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "Magnus Hand: Low-Cost 3D-Printed Magnetic Tactile Fingertips for an Open-Source Dexterous Hand"
+authors:
+  - family-names: "Costa"
+    given-names: "Tomás"
+    affiliation: "Computer-Aided Manufacturing Group, Institute for Manufacturing, University of Cambridge"
+repository-code: "https://github.com/tomasBGC/magnus-hand"
+license:
+  - MIT
+  - CC-BY-4.0
+preferred-citation:
+  type: generic
+  title: "Magnus Hand: Low-Cost 3D-Printed Magnetic Tactile Fingertips for an Open-Source Dexterous Hand"
+  authors:
+    - family-names: "Costa"
+      given-names: "Tomás"
+      affiliation: "Computer-Aided Manufacturing Group, Institute for Manufacturing, University of Cambridge"
+  year: 2026

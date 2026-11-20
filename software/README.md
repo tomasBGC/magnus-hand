@@ -6,7 +6,7 @@ Force/Theta/Phi, then run that model live to drive the AmazingHand.
 
 | Stage | Hardware | Python Interface |
 |-------|----------|-------------------|
-| **1. Magnetic sensing** — 4×5 MLX90393 array via TCA9546A mux | Teensy 4.0 | [`MagneticSensors/`](MagneticSensors/README.md) |
+| **1. Magnetic sensing** — 4×5 MLX90393 array via a 4-channel I2C multiplexer (STEMMA QT, addressed in firmware as a TCA9546A at 0x70) | Teensy 4.0 | [`MagneticSensors/`](MagneticSensors/README.md) |
 | **2. Force reference** — HX711 load cell | ATmega328P | [`LoadScale/`](LoadScale/README.md) |
 | **3. Data collection** — both sensors together, saved to `recordings/` | — | `unified_controller.py` + `unified_gui.py` |
 | **4. Model training + live inference** — sensor readings → Force/Theta/Phi | — | [`model_v1/`](model_v1/README.md) |
