@@ -1,0 +1,586 @@
+{
+  "exported_at_iso": "2026-09-08T12:14:17.746675+00:00",
+  "recording_started_at_iso": "2026-09-08T12:12:46.319665+00:00",
+  "n_ticks": 323,
+  "video_file": "eflesh_test_20260908T121329Z grasp test.avi",
+  "model_path": "<local path removed>",
+  "live_thresholds": {
+    "CONTACT_P_CONFIRM": 0.3,
+    "CONTACT_P_RELEASE": 0.15,
+    "CONTACT_CONFIRM_FRAMES": 4,
+    "CONTACT_RELEASE_FRAMES": 5,
+    "SLIP_DROP_FRACTION": 0.3,
+    "SLIP_WINDOW_S": 0.5,
+    "SLIP_DISPLAY_HOLD_S": 1.0
+  },
+  "n_slip_events": 81,
+  "slip_events": [
+    {
+      "t": 0.037,
+      "timestamp_iso": "2026-09-08T12:12:46.359569+00:00",
+      "finger": "Index",
+      "force_at_event": 0.3235668279403452,
+      "message": "Finger 1: Slip detected -- Force 1.10 N -> 0.32 N (71% drop within 0.5s)"
+    },
+    {
+      "t": 0.316,
+      "timestamp_iso": "2026-09-08T12:12:46.637133+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.15914897862771848,
+      "message": "Finger 4: Slip detected -- Force 0.38 N -> 0.15 N (59% drop within 0.5s)"
+    },
+    {
+      "t": 1.046,
+      "timestamp_iso": "2026-09-08T12:12:47.373298+00:00",
+      "finger": "Index",
+      "force_at_event": 0.4186396381806181,
+      "message": "Finger 1: Slip detected -- Force 0.52 N -> 0.28 N (45% drop within 0.5s)"
+    },
+    {
+      "t": 1.125,
+      "timestamp_iso": "2026-09-08T12:12:47.453079+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.2960162482899028,
+      "message": "Finger 2: Slip detected -- Force 0.59 N -> 0.34 N (42% drop within 0.5s)"
+    },
+    {
+      "t": 1.125,
+      "timestamp_iso": "2026-09-08T12:12:47.453079+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.056426058249985644,
+      "message": "Finger 3: Slip detected -- Force 0.12 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 1.408,
+      "timestamp_iso": "2026-09-08T12:12:47.730148+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.15324765639122423,
+      "message": "Finger 4: Slip detected -- Force 0.36 N -> 0.08 N (79% drop within 0.5s)"
+    },
+    {
+      "t": 2.169,
+      "timestamp_iso": "2026-09-08T12:12:48.495443+00:00",
+      "finger": "Index",
+      "force_at_event": 0.2364798623748395,
+      "message": "Finger 1: Slip detected -- Force 0.57 N -> 0.17 N (69% drop within 0.5s)"
+    },
+    {
+      "t": 2.169,
+      "timestamp_iso": "2026-09-08T12:12:48.495443+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.22992896752777833,
+      "message": "Finger 2: Slip detected -- Force 0.30 N -> 0.08 N (74% drop within 0.5s)"
+    },
+    {
+      "t": 2.524,
+      "timestamp_iso": "2026-09-08T12:12:48.849789+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.41296451396175565,
+      "message": "Finger 3: Slip detected -- Force 0.61 N -> 0.38 N (37% drop within 0.5s)"
+    },
+    {
+      "t": 2.524,
+      "timestamp_iso": "2026-09-08T12:12:48.849789+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.0925437798004544,
+      "message": "Finger 4: Slip detected -- Force 0.46 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 3.291,
+      "timestamp_iso": "2026-09-08T12:12:49.615462+00:00",
+      "finger": "Index",
+      "force_at_event": 0.30971970780646757,
+      "message": "Finger 1: Slip detected -- Force 0.42 N -> 0.22 N (48% drop within 0.5s)"
+    },
+    {
+      "t": 3.291,
+      "timestamp_iso": "2026-09-08T12:12:49.615462+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.5039637224195633,
+      "message": "Finger 2: Slip detected -- Force 1.57 N -> 0.17 N (89% drop within 0.5s)"
+    },
+    {
+      "t": 3.567,
+      "timestamp_iso": "2026-09-08T12:12:49.891116+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.2780816923611861,
+      "message": "Finger 3: Slip detected -- Force 0.53 N -> 0.21 N (61% drop within 0.5s)"
+    },
+    {
+      "t": 3.567,
+      "timestamp_iso": "2026-09-08T12:12:49.891116+00:00",
+      "finger": "Thumb",
+      "force_at_event": 1.0539517763383273,
+      "message": "Finger 4: Slip detected -- Force 3.60 N -> 0.06 N (98% drop within 0.5s)"
+    },
+    {
+      "t": 4.305,
+      "timestamp_iso": "2026-09-08T12:12:50.629402+00:00",
+      "finger": "Index",
+      "force_at_event": 0.22969775705280543,
+      "message": "Finger 1: Slip detected -- Force 0.48 N -> 0.13 N (72% drop within 0.5s)"
+    },
+    {
+      "t": 4.432,
+      "timestamp_iso": "2026-09-08T12:12:50.755755+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.19879448435262242,
+      "message": "Finger 2: Slip detected -- Force 0.30 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 4.677,
+      "timestamp_iso": "2026-09-08T12:12:51.000585+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.10214039187056707,
+      "message": "Finger 4: Slip detected -- Force 0.28 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 4.812,
+      "timestamp_iso": "2026-09-08T12:12:51.135760+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.2919990682382035,
+      "message": "Finger 3: Slip detected -- Force 0.44 N -> 0.23 N (47% drop within 0.5s)"
+    },
+    {
+      "t": 5.329,
+      "timestamp_iso": "2026-09-08T12:12:51.651614+00:00",
+      "finger": "Index",
+      "force_at_event": 0.35701215853991664,
+      "message": "Finger 1: Slip detected -- Force 0.93 N -> 0.22 N (76% drop within 0.5s)"
+    },
+    {
+      "t": 5.565,
+      "timestamp_iso": "2026-09-08T12:12:51.887022+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.08426163465661729,
+      "message": "Finger 2: Slip detected -- Force 1.02 N -> 0.17 N (83% drop within 0.5s)"
+    },
+    {
+      "t": 5.828,
+      "timestamp_iso": "2026-09-08T12:12:52.154668+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.11211478399149419,
+      "message": "Finger 3: Slip detected -- Force 0.24 N -> 0.09 N (63% drop within 0.5s)"
+    },
+    {
+      "t": 5.828,
+      "timestamp_iso": "2026-09-08T12:12:52.154668+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.14129127503121666,
+      "message": "Finger 4: Slip detected -- Force 0.31 N -> 0.05 N (83% drop within 0.5s)"
+    },
+    {
+      "t": 6.682,
+      "timestamp_iso": "2026-09-08T12:12:53.004368+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.18944787174471744,
+      "message": "Finger 2: Slip detected -- Force 0.32 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 6.932,
+      "timestamp_iso": "2026-09-08T12:12:53.257951+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.2552388079214587,
+      "message": "Finger 3: Slip detected -- Force 0.53 N -> 0.21 N (59% drop within 0.5s)"
+    },
+    {
+      "t": 7.061,
+      "timestamp_iso": "2026-09-08T12:12:53.385842+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.16505434271806974,
+      "message": "Finger 4: Slip detected -- Force 0.43 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 7.956,
+      "timestamp_iso": "2026-09-08T12:12:54.282436+00:00",
+      "finger": "Middle",
+      "force_at_event": 0.12308137449857057,
+      "message": "Finger 2: Slip detected -- Force 0.24 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 8.115,
+      "timestamp_iso": "2026-09-08T12:12:54.442954+00:00",
+      "finger": "Ring",
+      "force_at_event": 1.033770245481299,
+      "message": "Finger 3: Slip detected -- Force 3.45 N -> 0.27 N (92% drop within 0.5s)"
+    },
+    {
+      "t": 8.177,
+      "timestamp_iso": "2026-09-08T12:12:54.499775+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.15700992944199965,
+      "message": "Finger 4: Slip detected -- Force 0.22 N -> 0.13 N (43% drop within 0.5s)"
+    },
+    {
+      "t": 9.534,
+      "timestamp_iso": "2026-09-08T12:12:55.858678+00:00",
+      "finger": "Index",
+      "force_at_event": 4.243572573169798,
+      "message": "Finger 1: Slip detected -- Force 5.11 N -> 3.26 N (36% drop within 0.5s)"
+    },
+    {
+      "t": 11.689,
+      "timestamp_iso": "2026-09-08T12:12:58.012488+00:00",
+      "finger": "Index",
+      "force_at_event": 2.687404788417996,
+      "message": "Finger 1: Slip detected -- Force 3.19 N -> 2.02 N (37% drop within 0.5s)"
+    },
+    {
+      "t": 12.976,
+      "timestamp_iso": "2026-09-08T12:12:59.301159+00:00",
+      "finger": "Index",
+      "force_at_event": 2.0033131098472756,
+      "message": "Finger 1: Slip detected -- Force 2.67 N -> 1.30 N (51% drop within 0.5s)"
+    },
+    {
+      "t": 14.567,
+      "timestamp_iso": "2026-09-08T12:13:00.891634+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.11800492393976764,
+      "message": "Finger 4: Slip detected -- Force 0.38 N -> 0.09 N (77% drop within 0.5s)"
+    },
+    {
+      "t": 14.726,
+      "timestamp_iso": "2026-09-08T12:13:01.058006+00:00",
+      "finger": "Index",
+      "force_at_event": 1.940939441491164,
+      "message": "Finger 1: Slip detected -- Force 2.34 N -> 0.92 N (61% drop within 0.5s)"
+    },
+    {
+      "t": 15.578,
+      "timestamp_iso": "2026-09-08T12:13:01.900660+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.36624907699917536,
+      "message": "Finger 4: Slip detected -- Force 0.61 N -> 0.15 N (76% drop within 0.5s)"
+    },
+    {
+      "t": 15.928,
+      "timestamp_iso": "2026-09-08T12:13:02.252600+00:00",
+      "finger": "Index",
+      "force_at_event": 0.7861788196487305,
+      "message": "Finger 1: Slip detected -- Force 1.43 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 16.847,
+      "timestamp_iso": "2026-09-08T12:13:03.171552+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.2691388675742708,
+      "message": "Finger 4: Slip detected -- Force 0.60 N -> 0.28 N (53% drop within 0.5s)"
+    },
+    {
+      "t": 16.978,
+      "timestamp_iso": "2026-09-08T12:13:03.309363+00:00",
+      "finger": "Index",
+      "force_at_event": 0.2788015440282462,
+      "message": "Finger 1: Slip detected -- Force 1.35 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 17.995,
+      "timestamp_iso": "2026-09-08T12:13:04.324577+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.14227713766913552,
+      "message": "Finger 4: Slip detected -- Force 0.26 N -> 0.06 N (76% drop within 0.5s)"
+    },
+    {
+      "t": 18.137,
+      "timestamp_iso": "2026-09-08T12:13:04.465568+00:00",
+      "finger": "Index",
+      "force_at_event": 0.003303706833414452,
+      "message": "Finger 1: Slip detected -- Force 0.01 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 19.013,
+      "timestamp_iso": "2026-09-08T12:13:05.341281+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.15541890559087576,
+      "message": "Finger 4: Slip detected -- Force 0.49 N -> 0.02 N (97% drop within 0.5s)"
+    },
+    {
+      "t": 19.244,
+      "timestamp_iso": "2026-09-08T12:13:05.566310+00:00",
+      "finger": "Index",
+      "force_at_event": 0.0025321392589246344,
+      "message": "Finger 1: Slip detected -- Force 0.01 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 20.023,
+      "timestamp_iso": "2026-09-08T12:13:06.352018+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.1787129954519457,
+      "message": "Finger 4: Slip detected -- Force 0.26 N -> 0.17 N (35% drop within 0.5s)"
+    },
+    {
+      "t": 20.511,
+      "timestamp_iso": "2026-09-08T12:13:06.839689+00:00",
+      "finger": "Index",
+      "force_at_event": 0.12864538101823147,
+      "message": "Finger 1: Slip detected -- Force 0.51 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 21.129,
+      "timestamp_iso": "2026-09-08T12:13:07.461737+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.486027967004484,
+      "message": "Finger 4: Slip detected -- Force 1.56 N -> 0.31 N (80% drop within 0.5s)"
+    },
+    {
+      "t": 21.888,
+      "timestamp_iso": "2026-09-08T12:13:08.212566+00:00",
+      "finger": "Middle",
+      "force_at_event": 2.3480961843819097,
+      "message": "Finger 2: Slip detected -- Force 2.74 N -> 1.87 N (32% drop within 0.5s)"
+    },
+    {
+      "t": 22.488,
+      "timestamp_iso": "2026-09-08T12:13:08.814233+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.34093742432569146,
+      "message": "Finger 4: Slip detected -- Force 0.51 N -> 0.12 N (75% drop within 0.5s)"
+    },
+    {
+      "t": 23.302,
+      "timestamp_iso": "2026-09-08T12:13:09.633298+00:00",
+      "finger": "Middle",
+      "force_at_event": 2.4018547801769032,
+      "message": "Finger 2: Slip detected -- Force 2.76 N -> 1.85 N (33% drop within 0.5s)"
+    },
+    {
+      "t": 23.521,
+      "timestamp_iso": "2026-09-08T12:13:09.843800+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.26326344223537457,
+      "message": "Finger 4: Slip detected -- Force 0.81 N -> 0.38 N (52% drop within 0.5s)"
+    },
+    {
+      "t": 24.527,
+      "timestamp_iso": "2026-09-08T12:13:10.850247+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.23288124584552683,
+      "message": "Finger 4: Slip detected -- Force 0.44 N -> 0.08 N (81% drop within 0.5s)"
+    },
+    {
+      "t": 24.911,
+      "timestamp_iso": "2026-09-08T12:13:11.237230+00:00",
+      "finger": "Middle",
+      "force_at_event": 2.129193744066335,
+      "message": "Finger 2: Slip detected -- Force 2.46 N -> 1.52 N (38% drop within 0.5s)"
+    },
+    {
+      "t": 25.551,
+      "timestamp_iso": "2026-09-08T12:13:11.873977+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.4117913864372824,
+      "message": "Finger 4: Slip detected -- Force 0.64 N -> 0.39 N (38% drop within 0.5s)"
+    },
+    {
+      "t": 25.622,
+      "timestamp_iso": "2026-09-08T12:13:11.946277+00:00",
+      "finger": "Ring",
+      "force_at_event": 3.691436929207936,
+      "message": "Finger 3: Slip detected -- Force 4.78 N -> 2.92 N (39% drop within 0.5s)"
+    },
+    {
+      "t": 27.046,
+      "timestamp_iso": "2026-09-08T12:13:13.370788+00:00",
+      "finger": "Ring",
+      "force_at_event": 4.578837179220823,
+      "message": "Finger 3: Slip detected -- Force 5.54 N -> 3.49 N (37% drop within 0.5s)"
+    },
+    {
+      "t": 27.18,
+      "timestamp_iso": "2026-09-08T12:13:13.506618+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.3244173974259701,
+      "message": "Finger 4: Slip detected -- Force 0.63 N -> 0.11 N (82% drop within 0.5s)"
+    },
+    {
+      "t": 28.077,
+      "timestamp_iso": "2026-09-08T12:13:14.399977+00:00",
+      "finger": "Ring",
+      "force_at_event": 4.183989237429582,
+      "message": "Finger 3: Slip detected -- Force 4.81 N -> 3.34 N (31% drop within 0.5s)"
+    },
+    {
+      "t": 28.303,
+      "timestamp_iso": "2026-09-08T12:13:14.628076+00:00",
+      "finger": "Middle",
+      "force_at_event": 2.4309385819070535,
+      "message": "Finger 2: Slip detected -- Force 2.99 N -> 2.09 N (30% drop within 0.5s)"
+    },
+    {
+      "t": 28.303,
+      "timestamp_iso": "2026-09-08T12:13:14.628076+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.3042487300981219,
+      "message": "Finger 4: Slip detected -- Force 0.60 N -> 0.38 N (36% drop within 0.5s)"
+    },
+    {
+      "t": 29.324,
+      "timestamp_iso": "2026-09-08T12:13:15.649037+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.45739898215609287,
+      "message": "Finger 4: Slip detected -- Force 1.11 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 29.721,
+      "timestamp_iso": "2026-09-08T12:13:16.044665+00:00",
+      "finger": "Ring",
+      "force_at_event": 3.4805989214750106,
+      "message": "Finger 3: Slip detected -- Force 5.07 N -> 1.53 N (70% drop within 0.5s)"
+    },
+    {
+      "t": 30.339,
+      "timestamp_iso": "2026-09-08T12:13:16.661551+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.23461332238044147,
+      "message": "Finger 4: Slip detected -- Force 0.77 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 30.412,
+      "timestamp_iso": "2026-09-08T12:13:16.736266+00:00",
+      "finger": "Middle",
+      "force_at_event": 2.1809052488131986,
+      "message": "Finger 2: Slip detected -- Force 2.76 N -> 1.72 N (38% drop within 0.5s)"
+    },
+    {
+      "t": 30.799,
+      "timestamp_iso": "2026-09-08T12:13:17.123545+00:00",
+      "finger": "Ring",
+      "force_at_event": 3.0008496489712986,
+      "message": "Finger 3: Slip detected -- Force 3.62 N -> 2.02 N (44% drop within 0.5s)"
+    },
+    {
+      "t": 31.461,
+      "timestamp_iso": "2026-09-08T12:13:17.785076+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.2540933253752227,
+      "message": "Finger 4: Slip detected -- Force 0.84 N -> 0.05 N (95% drop within 0.5s)"
+    },
+    {
+      "t": 31.979,
+      "timestamp_iso": "2026-09-08T12:13:18.308257+00:00",
+      "finger": "Middle",
+      "force_at_event": 2.2824702317266685,
+      "message": "Finger 2: Slip detected -- Force 2.96 N -> 2.00 N (32% drop within 0.5s)"
+    },
+    {
+      "t": 31.979,
+      "timestamp_iso": "2026-09-08T12:13:18.308257+00:00",
+      "finger": "Ring",
+      "force_at_event": 2.8699022919353423,
+      "message": "Finger 3: Slip detected -- Force 3.96 N -> 2.12 N (46% drop within 0.5s)"
+    },
+    {
+      "t": 32.479,
+      "timestamp_iso": "2026-09-08T12:13:18.802150+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.234016510032016,
+      "message": "Finger 4: Slip detected -- Force 0.43 N -> 0.27 N (38% drop within 0.5s)"
+    },
+    {
+      "t": 33.119,
+      "timestamp_iso": "2026-09-08T12:13:19.448371+00:00",
+      "finger": "Index",
+      "force_at_event": 0.008759680682721635,
+      "message": "Finger 1: Slip detected -- Force 0.04 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 33.119,
+      "timestamp_iso": "2026-09-08T12:13:19.448371+00:00",
+      "finger": "Ring",
+      "force_at_event": 3.4257670785749665,
+      "message": "Finger 3: Slip detected -- Force 4.87 N -> 2.30 N (53% drop within 0.5s)"
+    },
+    {
+      "t": 33.592,
+      "timestamp_iso": "2026-09-08T12:13:19.914452+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.14735415642467825,
+      "message": "Finger 4: Slip detected -- Force 1.32 N -> 0.02 N (99% drop within 0.5s)"
+    },
+    {
+      "t": 34.368,
+      "timestamp_iso": "2026-09-08T12:13:20.693256+00:00",
+      "finger": "Ring",
+      "force_at_event": 3.3200154739397107,
+      "message": "Finger 3: Slip detected -- Force 5.21 N -> 2.43 N (53% drop within 0.5s)"
+    },
+    {
+      "t": 34.598,
+      "timestamp_iso": "2026-09-08T12:13:20.920401+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.4199984394102467,
+      "message": "Finger 4: Slip detected -- Force 0.61 N -> 0.29 N (52% drop within 0.5s)"
+    },
+    {
+      "t": 35.343,
+      "timestamp_iso": "2026-09-08T12:13:21.666743+00:00",
+      "finger": "Index",
+      "force_at_event": 0.5407868898874714,
+      "message": "Finger 1: Slip detected -- Force 0.94 N -> 0.56 N (40% drop within 0.5s)"
+    },
+    {
+      "t": 35.481,
+      "timestamp_iso": "2026-09-08T12:13:21.804275+00:00",
+      "finger": "Ring",
+      "force_at_event": 0.853178136614243,
+      "message": "Finger 3: Slip detected -- Force 2.05 N -> 0.00 N (100% drop within 0.5s)"
+    },
+    {
+      "t": 35.747,
+      "timestamp_iso": "2026-09-08T12:13:22.071091+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.12056711997105075,
+      "message": "Finger 4: Slip detected -- Force 0.33 N -> 0.14 N (57% drop within 0.5s)"
+    },
+    {
+      "t": 36.362,
+      "timestamp_iso": "2026-09-08T12:13:22.684165+00:00",
+      "finger": "Index",
+      "force_at_event": 0.44529676823251896,
+      "message": "Finger 1: Slip detected -- Force 1.00 N -> 0.11 N (89% drop within 0.5s)"
+    },
+    {
+      "t": 36.756,
+      "timestamp_iso": "2026-09-08T12:13:23.078506+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.12254163958629016,
+      "message": "Finger 4: Slip detected -- Force 0.32 N -> 0.14 N (57% drop within 0.5s)"
+    },
+    {
+      "t": 37.604,
+      "timestamp_iso": "2026-09-08T12:13:23.928860+00:00",
+      "finger": "Index",
+      "force_at_event": 0.262921008607073,
+      "message": "Finger 1: Slip detected -- Force 0.57 N -> 0.05 N (91% drop within 0.5s)"
+    },
+    {
+      "t": 37.805,
+      "timestamp_iso": "2026-09-08T12:13:24.130630+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.051339750635005656,
+      "message": "Finger 4: Slip detected -- Force 0.20 N -> 0.00 N (99% drop within 0.5s)"
+    },
+    {
+      "t": 38.64,
+      "timestamp_iso": "2026-09-08T12:13:24.964263+00:00",
+      "finger": "Index",
+      "force_at_event": 0.3251263790265571,
+      "message": "Finger 1: Slip detected -- Force 0.55 N -> 0.09 N (83% drop within 0.5s)"
+    },
+    {
+      "t": 38.84,
+      "timestamp_iso": "2026-09-08T12:13:25.164016+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.43646607361791756,
+      "message": "Finger 4: Slip detected -- Force 0.77 N -> 0.23 N (70% drop within 0.5s)"
+    },
+    {
+      "t": 40.009,
+      "timestamp_iso": "2026-09-08T12:13:26.333070+00:00",
+      "finger": "Thumb",
+      "force_at_event": 0.14314159759131284,
+      "message": "Finger 4: Slip detected -- Force 0.34 N -> 0.00 N (100% drop within 0.5s)"
+    }
+  ]
+}

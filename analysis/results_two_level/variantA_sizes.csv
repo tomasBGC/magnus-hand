@@ -1,0 +1,4 @@
+split,n_grasps,n_rows,n_light_rows,n_firm_rows,boundary
+standard,13,1669,1031,638,1.4780
+loso,70,8994,4517,4477,"per-fold all4=1.485, index_middle=1.491, index_ring=1.467, index_thumb=1.459, middle_ring=1.508, middle_thumb=1.524, ring_thumb=1.517"
+full_dataset,70,8994,4517,4477,

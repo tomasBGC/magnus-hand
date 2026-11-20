@@ -1,0 +1,13 @@
+split,finger,n_light,n_firm
+standard,Index,0,1022
+standard,Middle,141,512
+standard,Ring,140,243
+standard,Thumb,258,508
+loso,Index,25,4222
+loso,Middle,1116,2377
+loso,Ring,922,2147
+loso,Thumb,530,2181
+full_dataset,Index,25,4222
+full_dataset,Middle,1116,2377
+full_dataset,Ring,922,2147
+full_dataset,Thumb,530,2181
