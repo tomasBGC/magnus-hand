@@ -3,7 +3,7 @@
 eFlesh 4×5 Multiplexed Sensor Visualizer
 ========================================
 Real-time GUI for visualizing 4 groups of 5 MLX90393 magnetometers
-streamed from a Teensy 4.0 through a TCA9546A multiplexer.
+streamed from a Teensy 4.0 through a 4-channel I2C multiplexer (STEMMA QT, addressed in firmware as a TCA9546A at 0x70).
 
 Helps identify which physical sensor group corresponds to which
 mux channel by showing all 20 sensor readings simultaneously.
